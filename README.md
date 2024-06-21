@@ -52,3 +52,29 @@ ITCRMS is a web application developed for managing resources at the IT Center of
 5. **Access the Application**:
    Open your web browser and go to `http://localhost:5000` to view the application.
 
+   ## Project Structure
+
+        ITCRMS
+        │
+        ├── frontend
+        │   ├── index.html
+        │   ├── login.html
+        │   ├── register.html
+        │   ├── book.html
+        │   └── styles.css
+        │
+        ├── backend
+        │   ├── app.js
+        │   ├── routes
+        │   │   ├── auth.js
+        │   │   └── bookings.js
+        │   └── models
+        │       └── User.js
+        │       └── Booking.js
+        │
+        ├── ml_model
+        │   └── predictive_model.m
+        │
+        ├── data
+        │   └── sample_bookings.csv
+        
